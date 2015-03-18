@@ -1,4 +1,12 @@
 #!/bin/python
+
+"""
+This agent will randomly generate action(call function in schema).
+To test it just define 'schema1', 'schema2' function in the opencog guile shell,
+and load this py file.
+"""
+
+
 from opencog.atomspace import AtomSpace,types
 from opencog.scheme_wrapper import scheme_eval
 
